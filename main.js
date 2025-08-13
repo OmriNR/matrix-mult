@@ -83,7 +83,7 @@ function multiplyMatrixes(matrix1, matrix2) {
         let row = [];
         for (let j = 0; j < multWidth; j++) {
             let sum = 0;
-            for (let k = 0; k < matrix1[i].length; k++) {
+            for (let k = 0; k < matrix2.length; k++) {
                 sum += matrix1[i][k] * matrix2[k][j];
             }
             row.push(sum);
